@@ -6,6 +6,9 @@
 # Region
 
 Atrx.L is a big gene with a lot of small exons and big introns. 1 exon is big a contain the ADDz_ATRX. Since it is still at the "beginning" of the protein it seems to be a good targetted region.
+
+I gave to BJE the ref seq from *X. laevis* big exon --- sent me the blast results for the 8L and 8S in Xbo. Aligned both to design duplicate specific primers.
+
 But the region is small and crisprscan only found 2 overlapping guides, not great. Other domains can be interesting:
 
 ## List of domain
@@ -23,4 +26,4 @@ List of domain hits
 
 ## Sex biased?
 
-Using transcriptomic data --- no (except misc_RNA in adult testis). ---> need to find a better candidate.
+Using transcriptomic data --- no (except 1 misc_RNA in adult testis, which in *X. laevis* lies just after the CDS). ---> need to find a better candidate.
