@@ -23,4 +23,4 @@ List of domain hits
 
 ## Sex biased?
 
-Using transcriptomic data --- no. ---> need to find a better candidate.
+Using transcriptomic data --- no (except misc_RNA in adult testis). ---> need to find a better candidate.
