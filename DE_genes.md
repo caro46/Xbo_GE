@@ -1,6 +1,6 @@
-# Xenbase mRNA database (*X. tropicalis* + *X. laevis*) - Blast 
+# Female specific
 
-## Female specific
+## Xenbase mRNA database (*X. tropicalis* + *X. laevis*) - Blast 
 
 - zbtb43.S = zinc finger and BTB domain containing 43
 
@@ -8,7 +8,7 @@
  - after having to blast the hit sequence from `Xelaev18038801m` back to the *X. laevis* genome
 
 
-## Male specific
+# Male specific
 
 - `LOC108699136` on xenbase (Xlaev.9.2). Use the gene sequence from xenbase to blastn on NCBI: Xnr5 (`AB219931.1`) = tandem repeat of Xenopus nodal-related 5
 
