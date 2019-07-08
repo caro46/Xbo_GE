@@ -13,9 +13,9 @@ and located on the chr.8L in the non recombining region identified previously by
 
 ### Xenbase mRNA database (*X. tropicalis* + *X. laevis*) - Blast 
 
-- zbtb43.S = zinc finger and BTB domain containing 43
+- `TRINITY_DN12136_c1_g1_i1` = zbtb43.S = zinc finger and BTB domain containing 43
 
-- ammecr1.L = Alport syndrome, mental retardation, midface hypoplasia and elliptocytosis chromosomal region gene 1
+- `TRINITY_DN25319_c0_g1_i3` = ammecr1.L = Alport syndrome, mental retardation, midface hypoplasia and elliptocytosis chromosomal region gene 1
  - after having to blast the hit sequence from `Xelaev18038801m` back to the *X. laevis* genome
 
 Both genes are in the reduced region of non-recombination identified by BenE.
