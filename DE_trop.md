@@ -10,7 +10,7 @@
 
 ## Male biased
 
-- `gene369` = ph1 = polyhomeotic-like protein 1, scaffold 130.
+- `gene369` = ph1 (`XR_001923395.1`) = polyhomeotic-like protein 1, scaffold 130.
 
 [Uniprot](https://www.uniprot.org/uniprot/Q64028):
 ```
