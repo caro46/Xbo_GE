@@ -5,7 +5,7 @@ Most "interesting" genes to potentially target would be:
 - female specific = on the W chromosome
 - male biased = on the Z chromosome (assuming no dosage compensation)
 
-and loacted on the chr.8L in the non recombining region identified previously by BenF.
+and located on the chr.8L in the non recombining region identified previously by BenF.
 
 # Sex specific genes
 
@@ -18,12 +18,15 @@ and loacted on the chr.8L in the non recombining region identified previously by
 - ammecr1.L = Alport syndrome, mental retardation, midface hypoplasia and elliptocytosis chromosomal region gene 1
  - after having to blast the hit sequence from `Xelaev18038801m` back to the *X. laevis* genome
 
+Both genes are in the reduced region of non-recombination identified by BenE.
+
 ### Located on *X. laevis* scaffold
 
 - odf2 = outer dense fiber of sperm tails 2 - located on *X. tropicalis* chromosome 8. A bit weird and surprising that this gene seem female sepcific while in other species it is the opposite.
 
 Used FDR <0.05 regardless on the location. odf2 is only expressed in females and for both stages (reads count 247 - 610). odf2 is located on 8 in *X. tropicalis* (scaffold in *X. laevis*). In *X. laevis* it is only expressed in testis. ODF genes seem to have a very conserved role in spermatogenesis even in mammals... 
 
+Need to check if within the shorter region identified by BenE.
 
 ## Male specific
 
