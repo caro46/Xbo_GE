@@ -6,7 +6,7 @@
 
 ## Female biased
 
-- `LOC100497740`, Chr.07: mlc2 = myosin light chain 2
+- `LOC100497740`, Chr.07: mlc2 (`AC160829.3`) = myosin light chain 2
 
 ## Male biased
 
