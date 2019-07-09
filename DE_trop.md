@@ -23,6 +23,7 @@ RING finger, HC subclass, found in tripartite motif-containing protein 47 (TRIM4
 RING finger, HC subclass, found in tripartite motif-containing protein 47 (TRIM47) and similar proteins
 TRIM47, also known as gene overexpressed in astrocytoma protein (GOA) or RING finger protein 100 (RNF100), belongs a subclass of TRIM (tripartite motif) family of proteins that are defined by their N-terminal RBCC (RING, Bbox, and coiled coil) domains, including three consecutive zinc-binding domains, a C3HC4-type RING-HC finger, a B-box, and two coiled coil domains, as well as a B30.2/SPRY (SplA and ryanodine receptor) domain positioned C-terminal to the RBCC domain. It plays an important role in the process of dedifferentiation that is associated with astrocytoma tumorigenesis.
 ```
+For protein see genbank `AAI61185.1`. 
 
 - `ambp`: Chr.08L in *X.laevis*
 
