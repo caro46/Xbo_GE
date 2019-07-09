@@ -14,6 +14,16 @@
 
 *Sex-determining protein; essential for the adoption of the male sexual fate in all tissues. Substrate recognition subunit of the cullin-RING-based CBC(fem-1) (Cul2-ElonginB-ElonginC) E3 ubiquitin-protein ligase complex which mediates in association with cofactors fem-2 and fem-3 the ubiquitination and subsequent proteasomal degradation of tra-1.*
 
+Blasted (blastx) exon of 489bp (`scaffold_281 scaffold_281:98337..98825`) on NCBI to identify potential domain:
+```
+RING-HC_TRIM47_C-IV 	cd16604 	
+RING finger, HC subclass, found in tripartite motif-containing protein 47 (TRIM47)
+	2-49 	3.86e-0
+  
+RING finger, HC subclass, found in tripartite motif-containing protein 47 (TRIM47) and similar proteins
+TRIM47, also known as gene overexpressed in astrocytoma protein (GOA) or RING finger protein 100 (RNF100), belongs a subclass of TRIM (tripartite motif) family of proteins that are defined by their N-terminal RBCC (RING, Bbox, and coiled coil) domains, including three consecutive zinc-binding domains, a C3HC4-type RING-HC finger, a B-box, and two coiled coil domains, as well as a B30.2/SPRY (SplA and ryanodine receptor) domain positioned C-terminal to the RBCC domain. It plays an important role in the process of dedifferentiation that is associated with astrocytoma tumorigenesis.
+```
+
 - `ambp`: Chr.08L in *X.laevis*
 
 ## Male biased
