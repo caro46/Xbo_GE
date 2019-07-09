@@ -27,7 +27,7 @@ For protein see genbank `AAI61185.1`.
 
 It seems to be a specific copy of *X. tropicalis*. A copy of the gene is on chromosome 8 in *X. tropicalis* and 8L/S in *X.laevis*.
 
-Designed primers using the ref. `XM_018090095.1` and specificity to *X.tropicalis*. Designed primers for 2 big exons: exons 4 and 6.
+Designed primers with primer-blast (Primer3 on NCBI) using the ref. `XM_018090095.1` and specificity to *X.tropicalis*. Designed primers for 2 big exons: exons 4 and 6.
 
 - `ambp`: Chr.08L in *X.laevis*
 
