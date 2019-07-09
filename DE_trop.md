@@ -25,6 +25,8 @@ TRIM47, also known as gene overexpressed in astrocytoma protein (GOA) or RING fi
 ```
 For protein see genbank `AAI61185.1`. 
 
+It seems to be a specific copy of *X. tropicalis*. A copy of the gene is on chromosome 8 in *X. tropicalis* and 8L/S in *X.laevis*.
+
 - `ambp`: Chr.08L in *X.laevis*
 
 ## Male biased
