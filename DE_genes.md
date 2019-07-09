@@ -26,7 +26,7 @@ Both genes are in the reduced region of non-recombination identified by BenE.
 
 Used FDR <0.05 regardless on the location. odf2 is only expressed in females and for both stages (reads count 247 - 610). odf2 is located on 8 in *X. tropicalis* (scaffold in *X. laevis*). In *X. laevis* it is only expressed in testis. ODF genes seem to have a very conserved role in spermatogenesis even in mammals... 
 
-Need to check if within the shorter region identified by BenE.
+Need to check if within the shorter region identified by BenE. --- It is!
 
 ## Male specific
 
