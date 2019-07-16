@@ -36,3 +36,8 @@ cat test.bed
 # optionally write to an output file
 bedtools getfasta -fi test.fa -bed test.bed -fo test.fa.out
 ```
+## Designing primers
+
+Using Primer3 in Geneious: select the target region then > Design new primers > Forward & Reverse > Target region > Number of pairs to generate (set to at least 5 then pick the best). 
+
+Using primer-blast on NCBI you can (somewhat) check specificity of the primers (keep in mind that you might have a diverse species from the available data and if you you refseq but you have intron then I might not really be representative). It gives an idea of how good and specific the primers couple is. You can also blast on Xenbase and see if there is only 1 hit for each primer.
