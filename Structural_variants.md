@@ -2,6 +2,8 @@
 
 We have access to a good *X. borealis* female assembly. BJE has also HiSeqX reads of both a female and a male. The idea is to try to use the reads information (orientation, splitting) to identify structural variant on the W chromosome (specific to the female). The most interesting to first check is inversion.
 
+Some interestin info [here](https://deepseqanalysis.readthedocs.io/en/latest/re-seq-align-struct.html).
+
 # Lumpy ([article](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-6-r84), [github](https://github.com/arq5x/lumpy-sv#lumpy))
 
 ## Note about installation
