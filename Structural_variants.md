@@ -53,6 +53,7 @@ Load the good python version on graham before `make` (`module load python/2.7`) 
 ```
 zgrep "<INV>" Chr8L_dad.vcf.gz | zless
 zgrep "<INV>" Chr8L_mom.vcf.gz | awk '{split($8,aa,";");print $1,$2,aa[3],aa[4]}'
+zgrep "<INV>" Chr8L_mom.vcf.gz | zgrep -v "IMPRECISE" |zless
 
 module load nixpkgs/16.09  gcc/5.4.0 samtools/1.9
 samtools tview -p Chr8L:566666 DAD_to_AustinXB_sorted.bam Xbo.v1.fa
