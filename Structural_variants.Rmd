@@ -1,4 +1,15 @@
-# Lumpy
+# Goal
+
+We have access to a good *X. borealis* female assembly. BJE has also HiSeqX reads of both a female and a male. The idea is to try to use the reads information (orientation, splitting) to identify structural variant on the W chromosome (specific to the female). The most interesting to first check is inversion.
+
+# Lumpy ([article](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-6-r84), [github](https://github.com/arq5x/lumpy-sv#lumpy))
+
+## Note about installation
+A mistake in the installation instruction. Need to use:
+```
+git clone  --recursive  https://github.com/arq5x/lumpy-sv
+```
+Load the good python version on graham before `make` (`module load python/2.7`) to have access to the good libraries (especially `pysam`, need to do `module load mefit/1.0`).
 
 ## VCF output description
 
@@ -35,4 +46,18 @@
 ##FORMAT=<ID=PE,Number=1,Type=Integer,Description="Number of paired-end reads supporting the variant">
 ##FORMAT=<ID=SR,Number=1,Type=Integer,Description="Number of split reads supporting the variant">
 ##FORMAT=<ID=BD,Number=1,Type=Integer,Description="Amount of BED evidence supporting the variant">
+```
+## Checking results
+```
+zgrep "<INV>" Chr8L_dad.vcf.gz | zless
+zgrep "<INV>" Chr8L_mom.vcf.gz | awk '{split($8,aa,";");print $1,$2,aa[3],aa[4]}'
+
+module load nixpkgs/16.09  gcc/5.4.0 samtools/1.9
+samtools tview -p Chr8L:566666 DAD_to_AustinXB_sorted.bam Xbo.v1.fa
+`````
+Can also open the bam files (afer indexing and only the region of interest) locally with `IGV_2.3.81`. The reference assembly also need to be indexed.
+
+```
+samtools faidx <ref.fa>
+samtools index MOM_to_AustinXB_8L_INV_sorted.bam
 ```
