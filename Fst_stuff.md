@@ -49,7 +49,7 @@ From Furman paper, against *X. laevis* genome (v. 9.1): `chr8L: 4,605,306..51,70
 
 - `Xelaev18038326m.g`: `chr8L:4,601,429..4,602,090`
 
-- `ppp1r26.L`: c`hr8L:4,528,671..4,545,909`
+- `ppp1r26.L`: `chr8L:4,528,671..4,545,909`
 
 - `egfl8.L`: `chr8L:51704666..51725357`
 
@@ -59,9 +59,10 @@ module load blast/2.2.28+
 blastn -evalue 1e-20 -query Xborealis_SD_region.fa -db /work/ben/2018_Austin_XB_genome/Xbo.v1.fa_blastable -out Xborealis_SD_region_Xbo_v1_e20out6.out -outfmt 6
 
 #egfl8.L_chr8L   Chr8L   85.54   892     105     18      18785   19665   61525518        61524640        0.0      911
-
+#ppp1r26.L_chr8L Chr8L   88.29   2724    284     22      1974    4664    2069408 2072129 0.0     3230
+#ppp1r26.L_chr8L Chr8L   88.65   1119    76      24      4704    5815    2072130 2073204 0.0     1315
 
 ```
 `Xelaev18038326m.g` found on `Chr6S` and `Chr1S`.
 
-``
+Maybe better coordinates to use: `chr8L:2069408..61524640`.
