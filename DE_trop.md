@@ -10,7 +10,7 @@
 
 ### Looking into scaffolds:
 - `a2ml1`: scaffolds in *X. tropicalis* (`scaffold_244:7555-53183` (v.9.1)) and *X. laevis*), **trop v.10.7: `Chr7:6718182..6776149`** --- very small exons
-- `LOC100145515`: Predicted E3 ubiquitin ligase (after blasting against mRNA database on xenbase) - See [Ehrlund et al. 2009](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2663311/) and from [Uniprot page of fem-1](https://www.uniprot.org/uniprot/P17221):
+- `LOC100145515` (`LOC100145515	scaffold_281:89239-109531` v9.1): Predicted E3 ubiquitin ligase (after blasting against mRNA database on xenbase) - See [Ehrlund et al. 2009](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2663311/) and from [Uniprot page of fem-1](https://www.uniprot.org/uniprot/P17221):
 
 *Sex-determining protein; essential for the adoption of the male sexual fate in all tissues. Substrate recognition subunit of the cullin-RING-based CBC(fem-1) (Cul2-ElonginB-ElonginC) E3 ubiquitin-protein ligase complex which mediates in association with cofactors fem-2 and fem-3 the ubiquitination and subsequent proteasomal degradation of tra-1.*
 
@@ -25,7 +25,7 @@ TRIM47, also known as gene overexpressed in astrocytoma protein (GOA) or RING fi
 ```
 For protein see genbank `AAI61185.1`. 
 
-It seems to be a specific copy of *X. tropicalis*. A copy of the gene is on chromosome 8 in *X. tropicalis* and 8L/S in *X.laevis*.
+It seems to be a specific copy of *X. tropicalis*. A copy of the gene is on chromosome 8 in *X. tropicalis* and 8L/S in *X.laevis*. Exact match for `Chr8:143803609..143825810` in *X. tropicalis* v.10.7
 
 Designed primers with primer-blast (Primer3 on NCBI) using the ref. `XM_018090095.1` and specificity to *X.tropicalis*. Designed primers for 2 big exons: exons 4 and 6.
 
