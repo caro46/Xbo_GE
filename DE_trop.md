@@ -52,7 +52,10 @@ Highly expressed in testis with lower levels in most other tissues. Expressed in
 ```
 ### phc1
 
-Amplified using primers from Bewick et al. 2013 (scaf2_150071042_f: `GATTGGTCCCCTTCCGTAAT` / scaf2_150071793_r: `GGATTTCAGGCCAGCAGTTA`)
+- Amplified using primers from Bewick et al. 2013 (scaf2_150071042_f: `GATTGGTCCCCTTCCGTAAT` / scaf2_150071793_r: `GGATTTCAGGCCAGCAGTTA`)
+
+- `TRINITY_DN1080_c0_g1_i4`: male specific, `TRINITY_DN1080_c0_g1_i1`: expressed in everybody.
+
 
 ### vwa2
 
