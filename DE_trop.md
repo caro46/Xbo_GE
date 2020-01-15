@@ -1,4 +1,4 @@
-# Sex specific
+# Sex specific - gene level
 
 ## Male specfic (Y)
 
@@ -40,3 +40,18 @@ Designed primers with primer-blast (Primer3 on NCBI) using the ref. `XM_01809009
 Tissue specificity:
 Highly expressed in testis with lower levels in most other tissues. Expressed in embryonic stem cells
 ```
+
+# Sex specific - transcript level
+
+## Male specific
+
+```
+#TRINITY_DN5848_c0_g1_i2 (scaffold_132 v9.1) = vwa2: Chr7:3970247..3989763
+#TRINITY_DN2504_c0_g2_i3 scaffold_108 456770..459556: Chr7:7635900-7638685
+#TRINITY_DN1080_c0_g1_i4 scaffold_130: 758463..770091 = phc1 Chr7:7982516..7994580
+```
+### vwa2
+
+- Downloaded the *X.tropicalis* reference mRNA of the gene from xenbase version 10.0 (Name: `XM_004919370.2`, Position: `Chr7:3970247..3989763 (+ strand)`, ID: `rna36218`, Transcript_id: `XM_004919370.2`, Original_region: `scaffold_132:209568-228197`). 
+
+- MAFFT (https://mafft.cbrc.jp/alignment/software/) with default parameters to align the annotated mRNA and both transcripts (`TRINITY_DN5848_c0_g1_i2` male specific, `TRINITY_DN5848_c0_g1_i1` expressed in everybody). The differences between both of our transcripts are within the 3' UTR region.
