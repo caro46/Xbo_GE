@@ -50,6 +50,10 @@ Highly expressed in testis with lower levels in most other tissues. Expressed in
 #TRINITY_DN2504_c0_g2_i3 scaffold_108 456770..459556: Chr7:7635900-7638685
 #TRINITY_DN1080_c0_g1_i4 scaffold_130: 758463..770091 = phc1 Chr7:7982516..7994580
 ```
+### phc1
+
+Amplified using primers from Bewick et al. 2013 (scaf2_150071042_f: `GATTGGTCCCCTTCCGTAAT` / scaf2_150071793_r: `GGATTTCAGGCCAGCAGTTA`)
+
 ### vwa2
 
 - Downloaded the *X.tropicalis* reference mRNA of the gene from xenbase version 10.0 (Name: `XM_004919370.2`, Position: `Chr7:3970247..3989763 (+ strand)`, ID: `rna36218`, Transcript_id: `XM_004919370.2`, Original_region: `scaffold_132:209568-228197`). 
