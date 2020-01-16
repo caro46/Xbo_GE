@@ -56,6 +56,8 @@ Highly expressed in testis with lower levels in most other tissues. Expressed in
 
 - `TRINITY_DN1080_c0_g1_i4`: male specific, `TRINITY_DN1080_c0_g1_i1`: expressed in everybody.
 
+- blastx on ncbi:
+`Sterile alpha motif; Widespread domain in signalling and nuclear proteins.` 
 
 ### vwa2
 
